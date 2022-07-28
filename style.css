@@ -1,7 +1,4 @@
-.course-card{
-    height: ;
-    width: 18rem;
-}
-@media only screen and (max-width: 600px){
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
 }
