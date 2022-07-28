@@ -2,3 +2,26 @@
 *{
     font-family: 'Oswald', sans-serif;
 }
+
+.overlays{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.699);
+    z-index: 2;
+}
+.carousel-item > img{
+    z-index: 1;
+}
+.carousel-item > .carousel-caption{
+    z-index: 3;
+}
+#carouselExampleCaptions > button{
+    z-index: 3;
+}
+.carousel-indicators{
+    z-index: 3;
+}
+.social-media-icons i{
+    color: white;
+}
