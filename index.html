@@ -17,9 +17,9 @@
         <section class="navigation my-1">
             <nav class="navbar navbar-expand-lg navbar-expand-md bg-transparent">
                 <div class="container">
-                    <a class="navbar-brand text-success" href="#"><strong>
-                            <h1>Course Hub</h1>
-                        </strong></a>
+                    <a class="navbar-brand text-success" href="#">
+                        <strong><h1>Course Hub</h1></strong>
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
         <!-- navigation section ends -->
 
         <!-- carousel section starts -->
-        <section class="">
+        <section class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -54,26 +54,32 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./images/cover/cover-1.png" class="d-block w-100" alt="cover-1.png">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Explore our courses</h5>
+                        <div
+                            class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h1>Explore our courses</h1>
                             <p>We have created a bunch of courses for you.</p>
-                            <button type="button" class="btn btn-success">Explore</button>
+                            <span><a href="#course-section"><button type="button"
+                                        class="btn btn-success">Explore</button></a></span>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./images/cover/cover-2.jpg" class="d-block w-100" alt="cover-2.png">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Build Demanding skills</h5>
+                        <div
+                            class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h1>Build Demanding skills</h1>
                             <p>Gain skills, get certified and land your firt job.</p>
-                            <button type="button" class="btn btn-success">Enroll</button>
+                            <span><a href="#course-section"><button type="button"
+                                        class="btn btn-success">Enroll</button></a></span>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="cover-3.png">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>What are you waiting for?</h5>
+                        <div
+                            class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center">
+                            <h1>What are you waiting for?</h1>
                             <p>Enroll courses, explore the world of skills, work hard and grow</p>
-                            <button type="button" class="btn btn-success">Register</button>
+                            <span><a href="#ready"><button type="button"
+                                        class="btn btn-success">Register</button></a></span>
                         </div>
                     </div>
                 </div>
@@ -96,76 +102,76 @@
         <!-- courses section starts -->
         <section class="m-5 p-5" id="course-section">
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <h1><strong>Discover our popular courses</strong></h1>
-                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur possimus, <br>
+                <h2><strong>Discover our popular courses</strong></h2>
+                <small class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur possimus, <br>
                     tempore ducimus rerum eaque ipsam ipsa modi earum officia.</small>
             </div>
 
             <!-- courses -->
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 g-5 ">
-                        <div class="card d-flex flex-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 g-3">
+                        <div class="card flex-md-column flex-sm-row course-card">
                             <img src="./images/course/course-1.png" class="" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-center">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                                <span class="text-success"><strong>$100</strong></span>
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Fundamental of UI/UX design</h5>
+                                <p class="card-text">Learn all the things you need to know to become a UI/UX designer</p>
+                                <span class="text-success"><strong>Price : $100</strong></span>
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12 g-5">
-                        <div class="card d-flex flex-row">
-                            <img src="./images/course/course-1.png" class="" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                                <span class="text-success"><strong>$100</strong></span>
+                    <div class="col-lg-6 col-md-6 col-sm-12 g-3">
+                        <div class="card flex-md-column flex-sm-row course-card">
+                            <img src="./images/course/course-2.png" class="" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Javascript Basic to Advance</h5>
+                                <p class="card-text">Boost your web development skill with javascript!</p>
+                                <span class="text-success"><strong>Price : $100</strong></span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12 g-5">
-                        <div class="card d-flex flex-row">
-                            <img src="./images/course/course-1.png" class="card-img-top img-fluid" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                                <span class="text-success"><strong>$100</strong></span>
+                    <div class="col-lg-6 col-md-6 col-sm-12 g-3">
+                        <div class="card flex-md-column flex-sm-row course-card">
+                            <img src="./images/course/course-3.png" class="" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Fullstack Web Development</h5>
+                                <p class="card-text">Land as a full stack developer within this course.</p>
+                                <span class="text-success"><strong>Price : m$100</strong></span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12 g-5 ">
-                        <div class="card d-flex flex-row">
-                            <img src="./images/course/course-1.png" class="card-img-top img-fluid" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                                <span class="text-success"><strong>$100</strong></span>
+                    <div class="col-lg-6 col-md-6 col-sm-12 g-3">
+                        <div class="card flex-md-column flex-sm-row course-card">
+                            <img src="./images/course/course-4.png" class="" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Digital Marketing</h5>
+                                <p class="card-text">Gain most demanding skill digital marketing now.</p>
+                                <span class="text-success"><strong>Price : $100</strong></span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12 g-5">
-                        <div class="card d-flex flex-row">
-                            <img src="./images/course/course-1.png" class="card-img-top img-fluid" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
-                                <span class="text-success"><strong>$100</strong></span>
+                    <div class="col-lg-6 col-md-6 col-sm-12 g-3">
+                        <div class="card flex-md-column flex-sm-row course-card">
+                            <img src="./images/course/course-5.png" class="" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Photography Basic Rules</h5>
+                                <p class="card-text">Love Photography? Learn the basics here!</p>
+                                <span class="text-success"><strong>Price : $100</strong></span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12 g-5">
-                        <div class="card d-flex flex-row">
-                            <img src="./images/course/course-1.png" class="card-img-top img-fluid" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title</p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 g-3">
+                        <div class="card flex-md-column flex-sm-row course-card">
+                            <img src="./images/course/course-6.png"  class="" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Motion Graphics</h5>
+                                <p class="card-text">Learn here and do all the cool projects of motion graphics</p>
                                 <span class="text-success"><strong>$100</strong></span>
                             </div>
                         </div>
@@ -288,7 +294,8 @@
     </main>
 
 
-    <footer id="footer" class="my-5 p-5 w-100 gap-2 bg-dark text-white d-flex flex-column align-items-center justify-content-center">
+    <footer id="footer"
+        class="my-5 p-5 w-100 gap-2 bg-dark text-white d-flex flex-column align-items-center justify-content-center">
         <h2>Course Hub</h2>
         <p>Office 41, Zawaya Buildin, Ghala Muscat,Sultanate of Oman</p>
         <small>Privacy Policy | Terms of use</small>
